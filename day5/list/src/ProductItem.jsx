@@ -5,7 +5,7 @@ export default function ProductItem(props) {
 
     return (
         <>
-            <div className="w-[23%] mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="w-[23%] mx-auto bg-white shadow-lg rounded-lg overflow-hidden border">
                 <img
                     className="w-full h-52 object-cover"
                     src={props.img}
